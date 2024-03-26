@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root{
+  height: 100vh;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#App{
+  position: relative;
+}
+
+#Logo{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 10px;
+}
+
+#hero-button{
+  margin-right: 1em;
+}
+
+#hero-content{
+  position: absolute;
+  top: 50vh;
+  transform: translate(0,-25vh);
+}
+
+#hero-image-container{
+  background-image: url("./Resources/Images/Edited.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#centered-content-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more{
+  color: rgb(0, 81, 255);
+}
+
+.hidden{
+  display: none;
+}
+
+#last{
+  height: 10em;
 }
