@@ -5,10 +5,10 @@ const Projects = () => {
             <div class="ui divided items">
                 <div class="item">
                     <div class="ui tiny image">
-                        <img src="/images/IntAlert.png"/>
+                        <img alt="IntAlert" src="/Images/IntAlert.png"/>
                     </div>
                     <div class="content">
-                        <a class="header">IntAlert</a>
+                        <div class="header">IntAlert</div>
                         <div class="meta">Description</div>
                         <div class="description">
                             <p>
@@ -31,10 +31,10 @@ const Projects = () => {
                 </div>
                 <div class="item">
                     <div class="ui tiny image">
-                        <img src="/images/Turent.png"/>
+                        <img alt="TuRent Community" src="/Images/Turent.png"/>
                     </div>
                     <div class="content">
-                        <a class="header">TuRent Community</a>
+                        <div class="header">TuRent Community</div>
                         <div class="meta">Description</div>
                         <div class="description">
                             <p>
@@ -59,10 +59,10 @@ const Projects = () => {
             <div class="ui divided items">
                 <div class="item">
                     <div class="ui tiny image">
-                        <img src="/images/ElimuHub.png"/>
+                        <img alt="ElimuHub" src="/Images/ElimuHub.png"/>
                     </div>
                     <div class="content">
-                        <a class="header">ElimuHub</a>
+                        <div class="header">ElimuHub</div>
                         <div class="meta">Description</div>
                         <div class="description">
                             <p>
@@ -89,10 +89,10 @@ const Projects = () => {
             <div class="ui divided items">
                 <div class="item">
                     <div class="ui tiny image">
-                        <img src="/images/ElimuHubAPI.png"/>
+                        <img alt="ElimuHubAPI" src="/Images/ElimuHubAPI.png"/>
                     </div>
                     <div class="content">
-                        <a class="header">ElimuHub</a>
+                        <div class="header">ElimuHub API</div>
                         <div class="meta">Description</div>
                         <div class="description">
                             <p>
@@ -117,10 +117,10 @@ const Projects = () => {
                 </div>
                 <div class="item">
                     <div class="ui tiny image">
-                        <img src="/images/EventsAPI.png"/>
+                        <img alt="Events API" src="/Images/EventsAPI.png"/>
                     </div>
                     <div class="content">
-                        <a class="header">Events API</a>
+                        <div class="header">Events API</div>
                         <div class="meta">Description</div>
                         <div class="description">
                             <p>
