@@ -14,9 +14,9 @@ const Footer = () => {
                 </div>
                 <div className="six wide column" id="centered-content-container">
                     <div className="text-[28px] ">
-                        <a href="/" className="four wide column"><i className="ui github icon"></i></a>
-                        <a href="/"><i className="ui twitter icon"></i></a>
-                        <a href="/"><i className="ui linkedin icon"></i></a>
+                        <a href="https://github.com/atonya-bravin" className="four wide column"><i className="ui github icon"></i></a>
+                        <a href="https://twitter.com/bravin_the_Geek"><i className="ui twitter icon"></i></a>
+                        <a href="https://www.linkedin.com/in/bravin-atonya-71048425a/"><i className="ui linkedin icon"></i></a>
                     </div>
                 </div>
                 <div className="four wide column" id="centered-content-container">
