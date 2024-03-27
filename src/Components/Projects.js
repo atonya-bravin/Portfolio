@@ -2,15 +2,15 @@ const Projects = () => {
     return(
         <>
             <div className="ui header underline font-bold centered">Software Development</div>
-            <div class="ui divided items">
-                <div class="item">
-                    <div class="ui tiny image">
+            <div className="ui divided items">
+                <div className="item">
+                    <div className="ui tiny image">
                         <img alt="IntAlert" src="/Images/IntAlert.png"/>
                     </div>
-                    <div class="content">
-                        <div class="header">IntAlert</div>
-                        <div class="meta">Description</div>
-                        <div class="description">
+                    <div className="content">
+                        <div className="header">IntAlert</div>
+                        <div className="meta">Description</div>
+                        <div className="description">
                             <p>
                                 This is a project that tries to clean the internet by providing a 
                                 plartform for the internet users to lauch complains on insigtful 
@@ -18,7 +18,7 @@ const Projects = () => {
                                 create a more sane internet community.
                             </p>
                         </div>
-                        <div class="extra">
+                        <div className="extra">
                             <a href="https://github.com/atonya-bravin/IntAlert"
                                 className="text-[28px]"><i className="ui icon github"></i></a>
                             <a 
@@ -29,20 +29,20 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ui tiny image">
+                <div className="item">
+                    <div className="ui tiny image">
                         <img alt="TuRent Community" src="/Images/Turent.png"/>
                     </div>
-                    <div class="content">
-                        <div class="header">TuRent Community</div>
-                        <div class="meta">Description</div>
-                        <div class="description">
+                    <div className="content">
+                        <div className="header">TuRent Community</div>
+                        <div className="meta">Description</div>
+                        <div className="description">
                             <p>
                             TuRent community is a web based application that tries to solve the problem 
                             of house screening by tenants and house advertisment by landlords.
                             </p>
                         </div>
-                        <div class="extra">
+                        <div className="extra">
                             <a href="https://github.com/atonya-bravin/TuRent_community"
                             className="text-[28px]">
                                 <i className="ui icon github"></i>
@@ -56,15 +56,15 @@ const Projects = () => {
 
 
             <div className="ui header underline font-bold centered">UI/UX Engineering</div>
-            <div class="ui divided items">
-                <div class="item">
-                    <div class="ui tiny image">
+            <div className="ui divided items">
+                <div className="item">
+                    <div className="ui tiny image">
                         <img alt="ElimuHub" src="/Images/ElimuHub.png"/>
                     </div>
-                    <div class="content">
-                        <div class="header">ElimuHub</div>
-                        <div class="meta">Description</div>
-                        <div class="description">
+                    <div className="content">
+                        <div className="header">ElimuHub</div>
+                        <div className="meta">Description</div>
+                        <div className="description">
                             <p>
                                 ElimuHub is a groundbreaking application designed to revolutionize the 
                                 education industry by seamlessly digitizing every aspect of the educational 
@@ -74,7 +74,7 @@ const Projects = () => {
                                 resources. 
                             </p>
                         </div>
-                        <div class="extra">
+                        <div className="extra">
                             <a
                                 href="https://www.figma.com/proto/5o7KJYqSX3Ne6SjSTQYheY/ElimuHub-Re-design?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down-width">
                                 <button className="ui button primary inverted">Preview Design</button>
@@ -86,15 +86,15 @@ const Projects = () => {
 
 
             <div className="ui header underline font-bold centered">API Engineering</div>
-            <div class="ui divided items">
-                <div class="item">
-                    <div class="ui tiny image">
+            <div className="ui divided items">
+                <div className="item">
+                    <div className="ui tiny image">
                         <img alt="ElimuHubAPI" src="/Images/ElimuHubAPI.png"/>
                     </div>
-                    <div class="content">
-                        <div class="header">ElimuHub API</div>
-                        <div class="meta">Description</div>
-                        <div class="description">
+                    <div className="content">
+                        <div className="header">ElimuHub API</div>
+                        <div className="meta">Description</div>
+                        <div className="description">
                             <p>
                                 ElimuHub is a groundbreaking application designed to revolutionize the 
                                 education industry by seamlessly digitizing every aspect of the educational 
@@ -104,7 +104,7 @@ const Projects = () => {
                                 resources. 
                             </p>
                         </div>
-                        <div class="extra">
+                        <div className="extra">
                             <a href="https://github.com/atonya-bravin/ElimuHub"
                             className="text-[28px]">
                                 <i className="ui icon github"></i>
@@ -115,20 +115,20 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="ui tiny image">
+                <div className="item">
+                    <div className="ui tiny image">
                         <img alt="Events API" src="/Images/EventsAPI.png"/>
                     </div>
-                    <div class="content">
-                        <div class="header">Events API</div>
-                        <div class="meta">Description</div>
-                        <div class="description">
+                    <div className="content">
+                        <div className="header">Events API</div>
+                        <div className="meta">Description</div>
+                        <div className="description">
                             <p>
                                This is an application I created under the HNGX community. The application 
                                tries to make the ins and outs of event management easier.
                             </p>
                         </div>
-                        <div class="extra">
+                        <div className="extra">
                             <a href="https://github.com/atonya-bravin/Team-Events-Nodejs-Backend" 
                             className="text-[28px]">
                                 <i className="ui icon github"></i>
